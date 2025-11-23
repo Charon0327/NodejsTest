@@ -3,10 +3,10 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const cors = require('cors')
-
+require('dotenv').config();
 const userAuth = require('./middlewares/user-auth');
 const adminAuth = require('./middlewares/admin-auth')
-require('dotenv').config();
+
 // 前台路由文件
 const indexRouter = require('./routes/index');
 const categoriesRouter = require('./routes/categories');

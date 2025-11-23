@@ -14,3 +14,8 @@ Thumbs.db
 
 # Ignore Docker data.
 /data
+
+# Ignore my file
+/笔记.md
+/Sequelize ORM 的使用.md
+/sql语句.md
